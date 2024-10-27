@@ -1,0 +1,5 @@
+project: /home/jose/carpeta II SEMESTRE/II-semestre-2024/Arquitectura de Computadores/Talleres/TallerSimics2/academia-collaboration-master/simics-project
+simics-root: /home/jose/Documents/intel-simics-proyects/simics-6.0.198
+simics-model-builder: /home/jose/Documents/intel-simics-proyects/simics-6.0.198
+simics-python: /home/jose/Documents/intel-simics-proyects/simics-6.0.198
+mingw: None

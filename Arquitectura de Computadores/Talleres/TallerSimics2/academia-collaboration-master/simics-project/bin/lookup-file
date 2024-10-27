@@ -1,0 +1,10 @@
+#!/bin/bash
+# this file will be overwritten by the project setup script
+SIMICS_BASE_PACKAGE="/home/jose/Documents/intel-simics-proyects/simics-6.0.198"
+export SIMICS_BASE_PACKAGE
+export SIMICS_PYTHON_PACKAGE="/home/jose/Documents/intel-simics-proyects/simics-6.0.198"
+if [ -f "/home/jose/carpeta II SEMESTRE/II-semestre-2024/Arquitectura de Computadores/Talleres/TallerSimics2/academia-collaboration-master/simics-project/.package-list" ]; then
+    exec "/home/jose/Documents/intel-simics-proyects/simics-6.0.198/bin/lookup-file" --package-list "/home/jose/carpeta II SEMESTRE/II-semestre-2024/Arquitectura de Computadores/Talleres/TallerSimics2/academia-collaboration-master/simics-project/.package-list"  "$@"
+else
+    exec "/home/jose/Documents/intel-simics-proyects/simics-6.0.198/bin/lookup-file"  "$@"
+fi
